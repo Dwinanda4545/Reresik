@@ -10,6 +10,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Reresik">
         <activity
+            android:name=".Term"
+            android:exported="true" />
+        <activity
+            android:name=".EmailVerify"
+            android:exported="true" />
+        <activity
+            android:name=".Forgetpassword"
+            android:exported="true" />
+        <activity
+            android:name=".Register"
+            android:exported="true" />
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:exported="true"
+            android:label="@string/title_activity_login" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
