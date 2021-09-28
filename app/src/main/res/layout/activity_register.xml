@@ -118,7 +118,7 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
-        android:id="@+id/btnRegister"
+        android:id="@+id/btnRegister1"
         android:layout_width="238dp"
         android:layout_height="72dp"
         android:text="REGISTER"

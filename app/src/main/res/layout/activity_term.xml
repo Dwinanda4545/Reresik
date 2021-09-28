@@ -6,6 +6,21 @@
     android:layout_height="match_parent"
     tools:context=".Term">
 
+    <Button
+        android:id="@+id/btnAccept1"
+        android:layout_width="238dp"
+        android:layout_height="72dp"
+        android:text="Accept"
+        android:textSize="24sp"
+        app:backgroundTint="#43A047"
+        app:cornerRadius="45dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.937" />
+
     <ImageView
         android:id="@+id/imageView7"
         android:layout_width="wrap_content"
