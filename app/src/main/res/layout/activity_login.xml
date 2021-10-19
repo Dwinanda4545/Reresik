@@ -63,7 +63,7 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
-        android:id="@+id/textPassword"
+        android:id="@+id/textpassword"
         android:layout_width="153dp"
         android:layout_height="38dp"
         android:text="Password"
