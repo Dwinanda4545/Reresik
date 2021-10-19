@@ -25,10 +25,12 @@ public class MainActivity extends AppCompatActivity {
 
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer);
         mToggle = new ActionBarDrawerToggle(this,mDrawerLayout,R.string.open,R.string.close);
+
         mDrawerLayout.addDrawerListener(mToggle);
         mToggle.syncState();
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         FragmentHome frag1 = new FragmentHome();
         frag1.setArguments(getIntent().getExtras());
 
