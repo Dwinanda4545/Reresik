@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Reresik">
         <activity
+            android:name=".RiwayatPoint"
+            android:exported="true" />
+        <activity
+            android:name=".TukarPoint"
+            android:exported="true" />
+        <activity
             android:name=".FragmentHome"
             android:exported="true" />
         <activity
@@ -30,7 +36,6 @@
         <activity
             android:name=".Register"
             android:exported="true" />
-
         <activity
             android:name=".Login"
             android:exported="true">
