@@ -10,10 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Reresik">
         <activity
+<<<<<<< HEAD
             android:name=".RiwayatPoint"
             android:exported="true" />
         <activity
             android:name=".TukarPoint"
+=======
+            android:name=".TukarPoin"
+            android:exported="true" />
+        <activity
+            android:name=".RiwayatPoin"
+>>>>>>> main
             android:exported="true" />
         <activity
             android:name=".FragmentHome"
